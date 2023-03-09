@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop --watch-admin",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
@@ -18,7 +18,8 @@
     "better-sqlite3": "8.0.1",
     "pg": "^8.9.0",
     "strapi-plugin-comments": "^2.2.8",
-    "strapi-plugin-transformer": "^3.0.1"
+    "strapi-plugin-transformer": "^3.0.1",
+    "strapi-stripe": "^3.2.1"
   },
   "author": {
     "name": "A Strapi developer"

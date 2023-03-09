@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "yookassa_configs",
+  "info": {
+    "singularName": "yookassa-config",
+    "pluralName": "yookassa-configs",
+    "displayName": "Конфигурация ЮКасса",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sds": {
+      "type": "string"
+    }
+  }
+}
