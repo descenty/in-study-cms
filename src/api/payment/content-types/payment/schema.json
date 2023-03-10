@@ -16,24 +16,33 @@
       "type": "relation",
       "relation": "manyToOne",
       "target": "plugin::users-permissions.user",
+      "private": true,
       "inversedBy": "payments"
     },
     "successUrl": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "paymentUrl": {
-      "type": "string"
+    "url": {
+      "type": "string",
+      "required": true
     },
     "status": {
       "type": "enumeration",
       "enum": [
-        "created",
-        "canceled",
-        "paid"
-      ]
+        "pending",
+        "cancelled",
+        "completed"
+      ],
+      "default": "pending"
     },
     "data": {
-      "type": "json"
+      "type": "json",
+      "required": true
+    },
+    "amount": {
+      "type": "decimal",
+      "required": true
     }
   }
 }

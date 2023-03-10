@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-03-09T01:04:01.895Z"
+    "x-generation-date": "2023-03-10T02:03:28.555Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -8317,18 +8317,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -10443,18 +10447,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -12602,18 +12610,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -14728,18 +14740,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -16310,18 +16326,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -17781,18 +17801,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -19285,18 +19309,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -20756,18 +20784,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -20985,7 +21017,12 @@
         ],
         "properties": {
           "data": {
-            "required": [],
+            "required": [
+              "successUrl",
+              "url",
+              "data",
+              "amount"
+            ],
             "type": "object",
             "properties": {
               "user": {
@@ -21002,18 +21039,22 @@
               "successUrl": {
                 "type": "string"
               },
-              "paymentUrl": {
+              "url": {
                 "type": "string"
               },
               "status": {
                 "type": "string",
                 "enum": [
-                  "created",
-                  "canceled",
-                  "paid"
+                  "pending",
+                  "cancelled",
+                  "completed"
                 ]
               },
-              "data": {}
+              "data": {},
+              "amount": {
+                "type": "number",
+                "format": "float"
+              }
             }
           }
         }
@@ -22327,18 +22368,22 @@
                                         "successUrl": {
                                           "type": "string"
                                         },
-                                        "paymentUrl": {
+                                        "url": {
                                           "type": "string"
                                         },
                                         "status": {
                                           "type": "string",
                                           "enum": [
-                                            "created",
-                                            "canceled",
-                                            "paid"
+                                            "pending",
+                                            "cancelled",
+                                            "completed"
                                           ]
                                         },
                                         "data": {},
+                                        "amount": {
+                                          "type": "number",
+                                          "format": "float"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -22439,18 +22484,22 @@
               "successUrl": {
                 "type": "string"
               },
-              "paymentUrl": {
+              "url": {
                 "type": "string"
               },
               "status": {
                 "type": "string",
                 "enum": [
-                  "created",
-                  "canceled",
-                  "paid"
+                  "pending",
+                  "cancelled",
+                  "completed"
                 ]
               },
               "data": {},
+              "amount": {
+                "type": "number",
+                "format": "float"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -23806,18 +23855,22 @@
                                         "successUrl": {
                                           "type": "string"
                                         },
-                                        "paymentUrl": {
+                                        "url": {
                                           "type": "string"
                                         },
                                         "status": {
                                           "type": "string",
                                           "enum": [
-                                            "created",
-                                            "canceled",
-                                            "paid"
+                                            "pending",
+                                            "cancelled",
+                                            "completed"
                                           ]
                                         },
                                         "data": {},
+                                        "amount": {
+                                          "type": "number",
+                                          "format": "float"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -23918,18 +23971,22 @@
               "successUrl": {
                 "type": "string"
               },
-              "paymentUrl": {
+              "url": {
                 "type": "string"
               },
               "status": {
                 "type": "string",
                 "enum": [
-                  "created",
-                  "canceled",
-                  "paid"
+                  "pending",
+                  "cancelled",
+                  "completed"
                 ]
               },
               "data": {},
+              "amount": {
+                "type": "number",
+                "format": "float"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -25318,18 +25375,22 @@
                                         "successUrl": {
                                           "type": "string"
                                         },
-                                        "paymentUrl": {
+                                        "url": {
                                           "type": "string"
                                         },
                                         "status": {
                                           "type": "string",
                                           "enum": [
-                                            "created",
-                                            "canceled",
-                                            "paid"
+                                            "pending",
+                                            "cancelled",
+                                            "completed"
                                           ]
                                         },
                                         "data": {},
+                                        "amount": {
+                                          "type": "number",
+                                          "format": "float"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -25430,18 +25491,22 @@
               "successUrl": {
                 "type": "string"
               },
-              "paymentUrl": {
+              "url": {
                 "type": "string"
               },
               "status": {
                 "type": "string",
                 "enum": [
-                  "created",
-                  "canceled",
-                  "paid"
+                  "pending",
+                  "cancelled",
+                  "completed"
                 ]
               },
               "data": {},
+              "amount": {
+                "type": "number",
+                "format": "float"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -26797,18 +26862,22 @@
                                         "successUrl": {
                                           "type": "string"
                                         },
-                                        "paymentUrl": {
+                                        "url": {
                                           "type": "string"
                                         },
                                         "status": {
                                           "type": "string",
                                           "enum": [
-                                            "created",
-                                            "canceled",
-                                            "paid"
+                                            "pending",
+                                            "cancelled",
+                                            "completed"
                                           ]
                                         },
                                         "data": {},
+                                        "amount": {
+                                          "type": "number",
+                                          "format": "float"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -26909,18 +26978,22 @@
               "successUrl": {
                 "type": "string"
               },
-              "paymentUrl": {
+              "url": {
                 "type": "string"
               },
               "status": {
                 "type": "string",
                 "enum": [
-                  "created",
-                  "canceled",
-                  "paid"
+                  "pending",
+                  "cancelled",
+                  "completed"
                 ]
               },
               "data": {},
+              "amount": {
+                "type": "number",
+                "format": "float"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -26987,7 +27060,10 @@
             "required": [],
             "type": "object",
             "properties": {
-              "sds": {
+              "shopId": {
+                "type": "string"
+              },
+              "secretKey": {
                 "type": "string"
               }
             }
@@ -27003,7 +27079,10 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "sds": {
+              "shopId": {
+                "type": "string"
+              },
+              "secretKey": {
                 "type": "string"
               },
               "createdAt": {
@@ -27011,10 +27090,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -27316,7 +27391,10 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "sds": {
+              "shopId": {
+                "type": "string"
+              },
+              "secretKey": {
                 "type": "string"
               },
               "createdAt": {
@@ -27324,10 +27402,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -27662,7 +27736,10 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "sds": {
+              "shopId": {
+                "type": "string"
+              },
+              "secretKey": {
                 "type": "string"
               },
               "createdAt": {
@@ -27670,10 +27747,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -27975,7 +28048,10 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "sds": {
+              "shopId": {
+                "type": "string"
+              },
+              "secretKey": {
                 "type": "string"
               },
               "createdAt": {
@@ -27983,10 +28059,6 @@
                 "format": "date-time"
               },
               "updatedAt": {
-                "type": "string",
-                "format": "date-time"
-              },
-              "publishedAt": {
                 "type": "string",
                 "format": "date-time"
               },
@@ -34699,18 +34771,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -36166,18 +36242,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -37666,18 +37746,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -39133,18 +39217,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -40623,18 +40711,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -42119,18 +42211,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -43648,18 +43744,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -45144,18 +45244,22 @@
                                                                     "successUrl": {
                                                                       "type": "string"
                                                                     },
-                                                                    "paymentUrl": {
+                                                                    "url": {
                                                                       "type": "string"
                                                                     },
                                                                     "status": {
                                                                       "type": "string",
                                                                       "enum": [
-                                                                        "created",
-                                                                        "canceled",
-                                                                        "paid"
+                                                                        "pending",
+                                                                        "cancelled",
+                                                                        "completed"
                                                                       ]
                                                                     },
                                                                     "data": {},
+                                                                    "amount": {
+                                                                      "type": "number",
+                                                                      "format": "float"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -46792,18 +46896,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -48318,18 +48426,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -49877,18 +49989,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -51403,18 +51519,22 @@
                                                       "successUrl": {
                                                         "type": "string"
                                                       },
-                                                      "paymentUrl": {
+                                                      "url": {
                                                         "type": "string"
                                                       },
                                                       "status": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "created",
-                                                          "canceled",
-                                                          "paid"
+                                                          "pending",
+                                                          "cancelled",
+                                                          "completed"
                                                         ]
                                                       },
                                                       "data": {},
+                                                      "amount": {
+                                                        "type": "number",
+                                                        "format": "float"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"

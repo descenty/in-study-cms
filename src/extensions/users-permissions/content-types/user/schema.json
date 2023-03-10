@@ -67,7 +67,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::course.course",
-      "inversedBy": "users"
+      "mappedBy": "users"
     },
     "payments": {
       "type": "relation",

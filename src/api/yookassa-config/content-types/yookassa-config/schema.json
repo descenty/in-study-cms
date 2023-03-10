@@ -8,11 +8,14 @@
     "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "pluginOptions": {},
   "attributes": {
-    "sds": {
+    "shopId": {
+      "type": "string"
+    },
+    "secretKey": {
       "type": "string"
     }
   }
